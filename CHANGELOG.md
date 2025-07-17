@@ -7,12 +7,15 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Command `I2sPause` (#23646)
 - Basic support for ESP32-P4 (#23663)
+- ESP32-P4 command `HostedOta` (#23675)
+- Support for RV3028 RTC (#23672)
 
 ### Breaking Changed
 
 ### Changed
 - ESP32 Platform from 2025.05.30 to 2025.07.30, Framework (Arduino Core) from v3.1.3.250504 to v3.1.3.250707 and IDF from v5.3.3.250501 to v5.3.3.250707 (#23642)
-- ESP32 Domoticz supports persistent settings for all relays, keys and switches using filesystem
+- Domoticz supports persistent settings for all relays, keys and switches when filesystem `#define USE_UFILESYS` is enabled
+- ESP32 Platform from 2025.07.30 to 2025.07.31, Framework (Arduino Core) from v3.1.3.250707 to v3.1.3.250712 and IDF from v5.3.3.250707 to v5.3.3.250707 (#23685)
 
 ### Fixed
 

@@ -118,21 +118,23 @@ The latter links can be used for OTA upgrades too like ``OtaUrl https://ota.tasm
 ### Added
 - Commands `LoRaWanDecoder "` and `LoRaWanName "` to clear name [#23394](https://github.com/arendst/Tasmota/issues/23394)
 - Command `I2sPause` [#23646](https://github.com/arendst/Tasmota/issues/23646)
+- Support for RV3028 RTC [#23672](https://github.com/arendst/Tasmota/issues/23672)
 - Internal function 'WSContentSendRaw_P' [#23641](https://github.com/arendst/Tasmota/issues/23641)
 - Universal display driver for ZJY169S0800TG01 ST7789 280x240 [#23638](https://github.com/arendst/Tasmota/issues/23638)
 - NeoPool add Redox tank alarm [#19811](https://github.com/arendst/Tasmota/issues/19811)
 - I2S additions [#23543](https://github.com/arendst/Tasmota/issues/23543)
-- Basic support for ESP32-P4 (#23663)[#23663](https://github.com/arendst/Tasmota/issues/23663)
+- Basic support for ESP32-P4 [#23663](https://github.com/arendst/Tasmota/issues/23663)
+- ESP32-P4 command `HostedOta` [#23675](https://github.com/arendst/Tasmota/issues/23675)
 - Berry f-strings now support ':' in expression [#23618](https://github.com/arendst/Tasmota/issues/23618)
 
 ### Breaking Changed
 
 ### Changed
-- ESP32 Platform from 2025.05.30 to 2025.07.30, Framework (Arduino Core) from v3.1.3.250504 to v3.1.3.250707 and IDF from v5.3.3.250501 to v5.3.3.250707 [#23642](https://github.com/arendst/Tasmota/issues/23642)
+- ESP32 Platform from 2025.05.30 to 2025.07.31, Framework (Arduino Core) from v3.1.3.250504 to v3.1.3.250712 and IDF from v5.3.3.250501 to v5.3.3.250707 [#23685](https://github.com/arendst/Tasmota/issues/23685)
 - Library names [#23560](https://github.com/arendst/Tasmota/issues/23560)
 - CSS uses named colors variables [#23597](https://github.com/arendst/Tasmota/issues/23597)
 - VEML6070 and AHT2x device detection [#23581](https://github.com/arendst/Tasmota/issues/23581)
-- ESP32 Domoticz supports persistent settings for all relays, keys and switches using filesystem
+- Domoticz supports persistent settings for all relays, keys and switches when filesystem `#define USE_UFILESYS` is enabled
 - ESP32 LoRaWan decoding won't duplicate non-decoded message if `SO147 0`
 - BLE updates for esp-nimble-cpp v2.x [#23553](https://github.com/arendst/Tasmota/issues/23553)
 
